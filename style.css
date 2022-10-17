@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+.sidebar {
+    flex: 1;
+    flex-grow: 4.5;
+    background-image: url('Butterfly.jpg');
+    background-size: 100% 100%;
+}
+
+.main-area {
+    flex: 1;
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    margin-top: 16vh;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    height: max(20vh, 120px);
+    width: 100%;
+    display: flex;
+}
+
+#logo {
+    margin: 10px;
+}
+
+.welcome {
+    background-color: #f2f2f2;
+    flex: 1.25;
+}
+
+.signupForm {
+    padding: 3vh 3vw;
+    background-color: white;
+    flex: 1;
+    z-index: 2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column
+}
+
+.signupContainer {
+    display: flex;
+}
+
+.signupIntroContainer {
+    font-size: max(1.3vmax, 13px);
+    font-weight: 800;
+}
+
+.formLabel {
+    display: flex;
+    color: grey;
+    flex-direction: column;
+    font-size: max(1vmax, 10px);
+    margin: .5vmax 0;
+    width: 22vw;
+}
+
+input {
+    height: 25px;
+}
+
+.secondForm {
+    margin-left: 6vw;
+}
+
+.end {
+    background-color: #f2f2f2;
+    flex: 1;
+    z-index: 1;
+}
+
+.intro {
+    font-weight: 400;
+    font-size: max(1.3vmax, 17px);
+    margin: 13vh 11vw 0vh 3vw;
+}
+
+.actions {
+    margin: 5vh 0 0 3vw;
+}
+
+.submitButton {
+    margin-bottom: 4vh;
+    background-color: #cc9494;
+    height: max(7vh, 15px);
+    width: max(20vw, 40px);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Noto Serif Telugu', serif;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: .8vh;
+}
