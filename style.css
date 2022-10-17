@@ -12,7 +12,7 @@ body {
     background-size: 100% 100%;
 }
 
-.main-area {
+.mainArea {
     flex: 1;
     flex-grow: 7;
     display: flex;
@@ -104,4 +104,13 @@ input {
     font-weight: 700;
     font-size: larger;
     padding-top: .8vh;
+}
+
+.link {
+    color: #cc9494;
+}
+
+.errorMessage {
+    color: #cc9494;
+    margin-top: 2px;
 }

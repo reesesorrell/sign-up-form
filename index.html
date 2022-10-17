@@ -18,7 +18,7 @@
             <img src="Logo.png" alt="Butterfly Services Logo" id="logo">
         </div>
     </div>
-    <form action="" class="main-area">
+    <form action="" class="mainArea" id="mainForm">
         <div class="welcome">
             <div class="intro">
                 <p>
@@ -40,31 +40,31 @@
                 <div class="signupContainer">
                     <div class="formLabel">
                         <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName" name="firstName">
+                        <input type="text" id="firstName" name="firstName" required>
                     </div>
                     <div class="formLabel secondForm">
                         <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName" name="lastName">
+                        <input type="text" id="lastName" name="lastName" required>
                     </div>
                 </div>
                 <div class="signupContainer">
                     <div class="formLabel">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="formLabel secondForm">
                         <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="phonenumber" id="phoneNumber" name="phoneNumber">
+                        <input type="phonenumber" id="phoneNumber" name="phoneNumber" required>
                     </div>
                 </div>
                 <div class="signupContainer">
                     <div class="formLabel">
-                        <label for="password" required>PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="formLabel secondForm">
-                        <label for="confirmPassword" required>CONFIRM PASSWORD</label>
-                        <input type="confirmPassword" id="confirmPassword" name="confirmPassword">
+                        <label for="confirmPassword" >CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
                     </div></div>
             </div>
         </div>
@@ -72,7 +72,7 @@
             <div class="actions">
                 <input type="submit" class="submitButton">
                 <div>
-                    Already have an account? Log in
+                    Already have an account? <em class="link">Log in</em>
                 </div>
             </div>
         </div>
