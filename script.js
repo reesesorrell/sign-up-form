@@ -16,11 +16,11 @@ function validateForm(e) {
       // form is valid - make further checks
         Array.from(form.elements).forEach(i => {
             if (i.type == 'password') {
-                passwords += i.value;
+                passwords.push(i.value);
             }
         });
 
-        if (passwords[0] != passwords[1]) {
+        if (passwords[0] !== passwords[1]) {
             e.preventDefault();
             Array.from(form.elements).forEach(i => {
                 if (i.type == 'password') {
